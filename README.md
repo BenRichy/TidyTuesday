@@ -7,4 +7,4 @@ Collection of my data vizzes for #TidyTuesday!
 ### 02/03/2021
 ### Superbowl adverts
 
-testing 12
+![](plots/2021_03_02_NFLAdverts.png)
