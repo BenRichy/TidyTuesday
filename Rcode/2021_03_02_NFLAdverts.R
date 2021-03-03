@@ -77,7 +77,7 @@ pimage <- axis_canvas(p, axis = 'x') +
 
 ggdraw(insert_xaxis_grob(p, pimage, position = "left"))
 
-ggsave("plots/2021_03_02_NFLAdverts.png",height = 6,width=5)
+ggsave("../plots/2021_03_02_NFLAdverts.png",height = 6,width=5)
 
   
 
