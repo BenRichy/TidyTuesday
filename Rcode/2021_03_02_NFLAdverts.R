@@ -1,9 +1,11 @@
+# load packages
 library(tidytuesdayR)
 library(tidyverse)
 library(ggplot2)
 library(ggtext)
 library(cowplot)
 
+#load wd
 setwd("C:/Users/BR14/OneDrive - Ricardo Plc/Data-Science/R/TidyTuesday")
 general_fp <- "C:/Users/BR14/OneDrive - Ricardo Plc/Data-Science/R/TidyTuesday"
 
@@ -12,9 +14,11 @@ general_fp <- "C:/Users/BR14/OneDrive - Ricardo Plc/Data-Science/R/TidyTuesday"
 tuesdata <- tt_load('2021-03-02')
 tuesdata <- tuesdata$youtube
 
+# create df of unique brands in tt data
 uniqueBrands <- data.frame(brand = brandYears$brand %>% 
                              unique())
 
+# create path to image for each brand
 uniqueBrands <- uniqueBrands %>% 
   arrange(`brand`) %>%
   mutate(`count_number`=1:nrow(uniqueBrands),
@@ -34,11 +38,12 @@ brandYears <- tuesdata %>%
          like_ratio = like_count/dislike_count)
 
 
-# code if want the data to have the same IDs
+# tell each row what position on the x axis to be on
 brandYears <- brandYears %>% 
   left_join(uniqueBrands, by = 'brand')
 
 
+# make plot
 p <- brandYears %>%  ggplot(aes(y=`year`,x=`count_number`)) +
   geom_text(aes(label = "\U0001f3c8", col = "brown", size= brandYears$like_ratio*10)) +
   scale_y_reverse()+
@@ -63,6 +68,7 @@ p <- brandYears %>%  ggplot(aes(y=`year`,x=`count_number`)) +
        subtitle="A measure of popularity by company over time 
        (youtube likes/dislikes)")
 
+# add images to x axis
 pimage <- axis_canvas(p, axis = 'x') + 
   draw_image(uniqueBrands[1,3], x = 0.5, scale = 0.5) +
   draw_image(uniqueBrands[2,3], x = 1.5, scale = 0.5) +
