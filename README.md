@@ -19,7 +19,6 @@ Fancied having a play around with cowplot to try and see how to organise plots n
 
 Thought it might be a good idea to start trying to improve my data visualisation skills
 <br>
-<h3>Superbowl adverts</h3> 
-[(View Code)](Rcode/2021_03_02_NFLAdverts.R)
+Superbowl adverts [(View Code)](Rcode/2021_03_02_NFLAdverts.R)
 
 ![](plots/2021_03_02_NFLAdverts.png)
