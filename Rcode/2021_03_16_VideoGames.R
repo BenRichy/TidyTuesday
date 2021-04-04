@@ -107,7 +107,7 @@ ggplot(data = dataToPlot, aes(x = Month, y = sumAvgPlayer/1000, fill = gamename2
                                     margin = margin(t=10)))
 
 
-ggsave("plots/2021_03_16_SteamGames.png",height = 6,width=12)
+ggsave("plots/2021_03_16_SteamGames.png",height = 7,width=12)
   
 
 
