@@ -17,3 +17,7 @@ roundPlots <- function(plotListInput){
   }
   return(plotListOutput)
 }
+
+
+# wrap annotation text for plots
+wrapper <- function(x, ...) paste(strwrap(x, ...), collapse = "\n")
