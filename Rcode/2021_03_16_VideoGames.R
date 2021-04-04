@@ -77,6 +77,7 @@ ggplot(data = dataToPlot, aes(x = Month, y = sumAvgPlayer/1000, fill = gamename2
   scale_x_date(date_breaks = "1 year",
                date_labels = "%Y") +
   labs(y = "Average monthly player count (thousands)",
+       x = "Date",
        fill = NULL,
        title = "Average monthly playercount of games on Steam, 2012-2020",
        caption = "Data is based on data scraped by Michal Bogacz and posted on Kaggle at \n https://www.kaggle.com/michau96/popularity-of-games-on-steam. \n
