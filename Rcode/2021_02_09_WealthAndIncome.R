@@ -8,7 +8,7 @@ library(ggtext)
 library(grid)
 library(gridtext)
 
-source("Rcode/DataVisFunctions.R")
+source("Rcode/0_DataVisFunctions.R")
 
 # load in data
 tuesdata <- tt_load('2021-02-09')
