@@ -90,7 +90,7 @@ ggplot(data = dataToPlot, aes(x = Month, y = sumAvgPlayer/1000, fill = gamename2
   annotate("text", 
            x = as.Date('2016-06-01'),
            y = 3800,
-           label = wrapper("PUBG is the first 'Battle Royale' style game released. Average player numbers peak in late 2017 before dwindling when players switch to Fortnite.", width = 35),
+           label = wrapper("PUBG is the first 'Battle Royale' style game released. Average player numbers peak in late 2017 before dwindling when players switch to Fortnite. Fortnite's Battle Royal mode is released on 26th September 2017.", width = 35),
            colour = "yellow") +
   theme(plot.background = element_rect(fill = "#313131"),
         axis.title.y= element_text(colour = "white",
@@ -107,7 +107,7 @@ ggplot(data = dataToPlot, aes(x = Month, y = sumAvgPlayer/1000, fill = gamename2
                                     margin = margin(t=10)))
 
 
-ggsave("plots/2021_03_16_SteamGames.png",height = 6,width=12)
+ggsave("plots/2021_03_16_SteamGames.png",height = 7,width=12)
   
 
 
