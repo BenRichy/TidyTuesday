@@ -5,6 +5,16 @@ Collection of my data vizzes for #TidyTuesday!
 <br>
 
 
+### #5 06/04/2021
+
+Decided to get a bit more creative and make this one into a gif, took far too long to try and work out how to mock up a stacked bar inside of a country outline!
+<br>
+Largest causes of deforestation in the Brazilian Amazon 2001 - 2013 [(View Code)](Rcode/2021_04_06_GlobalDeforestation.R)
+
+![](plots/2021_04_06_GlobalDeforestation.gif)
+<br>
+<br>
+
 ### #4 23/03/2021
 
 Haven't done a chloropleth yet in R so thought it was probably about time
