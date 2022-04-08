@@ -4,6 +4,17 @@ Collection of my data vizzes for #TidyTuesday!
 
 <br>
 
+### #6 05/04/2022
+
+Haven't done a TidyTuesday plot in about a year .... oops
+<br>
+North American News Corporation Revenue Streams [(View Code)](Rcode/2022_04_05_NewsOrgs.R)
+
+![](plots/2022_04_05_NewsCorps.png)
+<br>
+<br>
+
+
 
 ### #5 06/04/2021
 
