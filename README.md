@@ -4,6 +4,19 @@ Collection of my data vizzes for #TidyTuesday!
 
 <br>
 
+### #7 29/03/2022
+
+Time to go back through the TidyTuesdays I've missed out on
+<br>
+US College Sport Expenditure per Participant [(View Code)](Rcode/2022_03_29_CollegeSports.R)
+
+![](plots/2022_03_29_CollegeSports.png)
+<br>
+<br>
+
+
+
+
 ### #6 05/04/2022
 
 Haven't done a TidyTuesday plot in about a year .... oops
