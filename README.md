@@ -4,6 +4,19 @@ Collection of my data vizzes for #TidyTuesday!
 
 <br>
 
+### #8 15/01/2023
+
+Another long break, found this plot in my working files
+<br>
+Most Popular Female Baby Names in the USA, 2017 [(View Code)](Rcode/2022_03_22_BabyNames.R)
+
+![](plots/2022_03_22_BabyNames.png)
+<br>
+<br>
+
+
+
+
 ### #7 29/03/2022
 
 Time to go back through the TidyTuesdays I've missed out on
