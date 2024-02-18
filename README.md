@@ -4,6 +4,18 @@ Collection of my data vizzes for #TidyTuesday!
 
 <br>
 
+
+### #8 18/02/2024
+
+I keep saying I'll do some more plots.. maybe this time
+<br>
+R Consortium ISC Grant funding [(View Code)](Rcode/2024_02_18_ISCGrant.R)
+
+![](plots/2024_02_18_ISCGrant.png)
+<br>
+<br>
+
+
 ### #7 29/03/2022
 
 Time to go back through the TidyTuesdays I've missed out on
