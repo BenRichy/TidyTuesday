@@ -4,6 +4,19 @@ Collection of my data vizzes for #TidyTuesday!
 
 <br>
 
+
+
+### #9 18/02/2024
+
+I keep saying I'll do some more plots.. maybe this time
+<br>
+R Consortium ISC Grant funding [(View Code)](Rcode/2024_02_18_ISCGrant.R)
+
+![](plots/2024_02_18_ISCGrant.png)
+
+<br>
+<br>
+
 ### #8 15/01/2023
 
 Another long break, found this plot in my working files
@@ -11,9 +24,9 @@ Another long break, found this plot in my working files
 Most Popular Female Baby Names in the USA, 2017 [(View Code)](Rcode/2022_03_22_BabyNames.R)
 
 ![](plots/2022_03_22_BabyNames.png)
-<br>
-<br>
 
+<br>
+<br>
 
 
 
