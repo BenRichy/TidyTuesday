@@ -77,7 +77,7 @@ ggplot(data = GrantRawData) +
         panel.background = element_rect(fill = colour_bg))
 
 #save plot
-ggsave("plots/2024_02_18_ISCGrant.png", height = 7, width =12)
+ggsave("plots/2024_02_20_ISCGrant.png", height = 7, width =12)
 
 
         
