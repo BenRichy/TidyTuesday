@@ -5,14 +5,25 @@ Collection of my data vizzes for #TidyTuesday!
 <br>
 
 
+### #10 24/02/2024
+
+Testing out radar plots for something for work...
+<br>
+Valentine's Day Gifts [(View Code)](Rcode/2024_02_13_ValentinesConsumer.R)
+
+![](plots/2024_02_13_ValentinesConsumer.png)
+
+<br>
+<br>
+
 
 ### #9 18/02/2024
 
 I keep saying I'll do some more plots.. maybe this time
 <br>
-R Consortium ISC Grant funding [(View Code)](Rcode/2024_02_18_ISCGrant.R)
+R Consortium ISC Grant funding [(View Code)](Rcode/2024_02_20_ISCGrant.R)
 
-![](plots/2024_02_18_ISCGrant.png)
+![](plots/2024_02_20_ISCGrant.png)
 
 <br>
 <br>
