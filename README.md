@@ -5,6 +5,18 @@ Collection of my data vizzes for #TidyTuesday!
 <br>
 
 
+### #11 24/02/2024
+
+Some geospatial data with a slider
+<br>
+UNESCO World Heritage Sites in Nordic Countries [(View Code)](Rcode/2024_04_06_WorldHeritage.R)
+
+![](plots/2024_02_06/WorldHeritage.html)
+
+<br>
+<br>
+
+
 ### #10 24/02/2024
 
 Testing out radar plots for something for work...
