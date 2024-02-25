@@ -105,6 +105,7 @@ img_2022 <- "img/2024_02_06_WorldHeritage/Heritage_2022.png"
 
 combinedImage <- slideView(img_2004, img_2022, label1 = "2004", label2 = "2022")
 
+dir.create(file.path("plots/libs_html/2024_02_06_WorldHeritage"))
 
-save_html(combinedImage, "plots/2024_02_06_WorldHeritage.html")
+save_html(combinedImage, "plots/2024_02_06_WorldHeritage.html", background = "white", libdir = "libs_html/2024_02_06_WorldHeritage")
 

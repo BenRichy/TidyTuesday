@@ -11,7 +11,7 @@ Some geospatial data with a slider
 <br>
 UNESCO World Heritage Sites in Nordic Countries [(View Code)](Rcode/2024_04_06_WorldHeritage.R)
 
-![](plots/2024_02_06/WorldHeritage.html)
+[(View Plot)](plots/2024_02_06_WorldHeritage.html)
 
 <br>
 <br>
