@@ -100,8 +100,8 @@ plot_geog_2022
 
 
 #Save plots as images
-ggsave(img_2004, plot = plot_geog_2004, height = 6, width =3.47)
-ggsave(img_2022, plot = plot_geog_2022, height = 6, width =3.47)
+ggsave(img_2004, plot = plot_geog_2004, height = 4, width =4/1.73)
+ggsave(img_2022, plot = plot_geog_2022, height = 4, width =4/1.73)
 
 
 
