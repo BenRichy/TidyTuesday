@@ -27,6 +27,10 @@ colour_denmark <- "#6ecbf2"
 colour_norway <- "#f26363"
 colour_sweden <- "#fdf877"
 colour_bg <- "#397fc0"
+  
+#file paths for plots
+img_2004 <- "img/2024_02_06_WorldHeritage/Heritage_2004.png"
+img_2022 <- "img/2024_02_06_WorldHeritage/Heritage_2022.png"
 
 # get maps
 europe <- ne_countries(scale = 50, returnclass = "sf", continent = "Europe")
@@ -56,7 +60,8 @@ plot_base_geog <- ggplot() +
   geom_sf(data = sweden, fill = colour_sweden) +
   coord_sf(xlim = c(5, 30), ylim = c(53, 71)) +
   theme_void() +
-  theme(plot.background = element_rect(fill = colour_bg),
+  theme(plot.background = element_rect(fill = colour_bg,
+                                       colour = colour_bg),
         legend.position = "none")+
   labs(title = paste0("Number of UNESCO World Heritage \nSites in Nordic Countries"))
 
@@ -95,17 +100,17 @@ plot_geog_2022
 
 
 #Save plots as images
-ggsave("img/2024_02_06_WorldHeritage/Heritage_2004.png", plot = plot_geog_2004, height = 7, width =12)
-ggsave("img/2024_02_06_WorldHeritage/Heritage_2022.png", plot = plot_geog_2022, height = 7, width =12)
-
-img_2004 <- "img/2024_02_06_WorldHeritage/Heritage_2004.png"
-img_2022 <- "img/2024_02_06_WorldHeritage/Heritage_2022.png"
+ggsave(img_2004, plot = plot_geog_2004, height = 6, width =3.47)
+ggsave(img_2022, plot = plot_geog_2022, height = 6, width =3.47)
 
 
 
+#create combined slideview image
 combinedImage <- slideView(img_2004, img_2022, label1 = "2004", label2 = "2022")
 
+#create directory to place html files into
 dir.create(file.path("plots/libs_html/2024_02_06_WorldHeritage"))
 
+#save plot
 save_html(combinedImage, "plots/2024_02_06_WorldHeritage.html", background = "white", libdir = "libs_html/2024_02_06_WorldHeritage")
 
